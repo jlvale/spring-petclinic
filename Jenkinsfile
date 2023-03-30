@@ -1,6 +1,6 @@
 #!groovy
 pipeline {
-    agent {
+  agent {
     kubernetes {
       yaml '''
         apiVersion: v1
